@@ -1,0 +1,29 @@
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+/* Color Cards */
+
+.pink {
+  border: 8px solid pink;
+}
+.red {
+  border: solid 8px red;
+}
+.orange {
+  border: solid 8px coral;
+}
+.purple {
+  border: solid 8px purple;
+}
+.cyan {
+  border: solid 8px cyan;
+}
+.yellow {
+  border: solid 8px yellow;
+}

@@ -1,1 +1,53 @@
 /* Other rules */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.p {
+  font-size: 20px;
+  padding: 15px;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.footer {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.link span {
+  font-weight: bold;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link img {
+  width: auto;
+  height: 20px;
+  border-radius: 50%;
+}
