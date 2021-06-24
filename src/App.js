@@ -22,7 +22,7 @@ function App() {
           title="Full Time Sales Associate - Sydney Boutique"
           contractType="CDI"
           country="Australie"
-          city="Cydney"
+          city="Sydney"
         />
         <Card
           className="card purple"
