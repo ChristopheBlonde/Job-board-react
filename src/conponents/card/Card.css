@@ -5,6 +5,14 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 10px lightslategrey;
+}
+
+.card:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* Color Cards */
@@ -13,17 +21,17 @@
   border: 8px solid pink;
 }
 .red {
-  border: solid 8px red;
+  border: solid 10px red;
 }
 .orange {
-  border: solid 8px coral;
+  border: solid 10px coral;
 }
 .purple {
-  border: solid 8px purple;
+  border: solid 10px purple;
 }
 .cyan {
-  border: solid 8px cyan;
+  border: solid 10px cyan;
 }
 .yellow {
-  border: solid 8px yellow;
+  border: solid 10px yellow;
 }

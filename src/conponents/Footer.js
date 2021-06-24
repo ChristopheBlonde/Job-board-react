@@ -3,19 +3,16 @@ const Footer = (props) => {
     <footer className={props.className}>
       <a
         className="linkIcon"
-        href="https://apollo.lereacteur.io/"
+        href="https://lereacteur.io/"
         rel="noreferrer"
         target="_blank"
       >
-        <img src={props.icon} alt="" />{" "}
+        <img src={props.icon} alt="" />
+        Le Reacteur
       </a>
       <p className="link">
         Made with <span>React</span> at &nbsp;
-        <a
-          href="https://apollo.lereacteur.io/"
-          rel="noreferrer"
-          target="_blank"
-        >
+        <a href="https://lereacteur.io/" rel="noreferrer" target="_blank">
           <img src={props.icon} alt="" /> Le Reacteur
         </a>{" "}
         By&nbsp;
@@ -34,6 +31,7 @@ const Footer = (props) => {
         target="_blank"
       >
         <img src={props.image} alt="" />
+        Chris
       </a>
     </footer>
   );

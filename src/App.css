@@ -1,4 +1,8 @@
 /* Other rules */
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Indie+Flower&display=swap");
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -10,21 +14,26 @@
 .h1 {
   font-size: 30px;
   padding: 15px;
+  font-family: "Amiri", serif;
+  font-weight: bold;
 }
 
 .p {
   font-size: 20px;
   padding: 15px;
+  font-family: "Amiri", serif;
 }
 .header {
   width: auto;
   display: flex;
   justify-content: center;
-  font-size: 36px;
+  font-size: 40px;
   background-color: rgb(48, 48, 48);
   color: white;
   padding: 15px 0;
   margin-bottom: 25px;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 3px 2px 2px goldenrod;
 }
 
 .footer {
@@ -35,10 +44,14 @@
   padding: 30px;
   margin-top: 15px;
   font-size: 20px;
+  font-family: "Amiri", serif;
 }
 
 .linkIcon {
   display: none;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  color: black;
 }
 
 .link span {
@@ -46,17 +59,31 @@
 }
 
 .link a {
+  font-family: "Indie Flower", cursive;
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 26px;
+}
+
+.link a:hover {
+  color: rgb(43, 121, 95);
+  font-size: 30px;
 }
 
 .link img {
   width: auto;
   height: 20px;
   border-radius: 50%;
+  box-shadow: 1px 1px 2px black;
 }
 
+.linkIcon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
 @media (max-width: 1140px) {
   .container {
     width: 90vw;
@@ -68,12 +95,6 @@
     justify-content: space-evenly;
     flex-direction: row-reverse;
   }
-
-  .linkIcon img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
 }
 
 @media (max-width: 786px) {
@@ -82,5 +103,7 @@
   }
   .linkIcon {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
